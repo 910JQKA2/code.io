@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>🛠️ Hướng dẫn LAN ẩn</title>
+  <style>
+    body {
+      font-family: Consolas, monospace;
+      background-color: #f9f9f9;
+      padding: 30px;
+      color: #333;
+    }
+    pre {
+      background: #fff;
+      border-left: 5px solid #2196F3;
+      padding: 15px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }
+    h2 {
+      color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <h2>📌 Hướng dẫn thao tác trong mạng LAN</h2>
+  <pre>
+b1: gõ <b>net view</b> bằng cmd để liệt kê tên máy trong LAN
+b2: gõ <b>ping [tên_máy]</b> -t để lấy ip
+b3: gõ <b>sc \\[IP_máy_chủ] stop "NetSupport Client Service"</b> để giải phóng
+
+<b>bonus:</b> gõ <b>sc \\[IP_máy_chủ] start "NetSupport Client Service"</b> để kích hoạt lại (nếu cần)
+  </pre>
+</body>
+</html>
